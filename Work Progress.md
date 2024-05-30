@@ -9,3 +9,7 @@ Online Learning Application project
   - [x] Days are partitioned in intervals.
   - [x] In each interval the demand curve is different
   - [ ] The demand curve + noise specifies how many buyers while buy for every price depending on the current interval
+- [ ] Build a pricing strategy using the discretization of the prices p ∈ [0, 1] and:
+  - [ ] using sliding-window
+  - [ ] using CUSUM
+- [ ] bonus point
