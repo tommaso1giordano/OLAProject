@@ -16,4 +16,4 @@ Online Learning Application project
 
 ### TO DO
 
-- [ ] check the demand curve. Under visual ispection it seems strange.
+- [ ] check the demand curve for requirement 3. Under visual ispection it seems strange.
