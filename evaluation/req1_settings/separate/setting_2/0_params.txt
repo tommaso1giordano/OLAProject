@@ -1,0 +1,21 @@
+auction_params = {
+      'ctrs': [1, 1, 1, 1, 1],
+      'value': 1, # this is the value_per_click (v_a)
+      "gaussian_bidders":
+      {
+        'bids_mean': [0.1, 0.15, 0.2, 0.3],
+        'bids_std': [0.01, 0.01, 0.01, 0.01],
+      },
+      "uniform_bidders":
+      {
+          "bids_low": [0.1, 0.15, 0.2, 0.25],
+          "bids_high": [0.2, 0.22, 0.3, 0.35],
+          # "bids_low": [0, 0, 0, 0],
+          # "bids_high": [1, 1, 1, 1],
+      },
+      'n_users': 2000,
+      'budget': 1000,
+      'n_bids': 15
+  }
+
+noise_type = "uniform"
